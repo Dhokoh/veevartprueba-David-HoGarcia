@@ -7,7 +7,7 @@ def ladderGame():
     currentPosition = 0
     turn = 0
     while (currentPosition <= 25):
-        dice = randint(1,6)
+        dice = randint(1,6) 
         print ("Dice threw: " + (str)(dice))
         currentPosition += dice
         if (currentPosition < 25):
